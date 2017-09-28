@@ -40,12 +40,12 @@ var songs = [
     title: "Kiss from a Rose"
   },
   {
-    youtube: "PooLT8Jmeno",
+    youtube: "8FlPwmw63bY",
     artist: "Frank Sinatra",
     title: "My Way"
   },
   {
-    youtube: "kzEe0fo1wyc",
+    youtube: "sDC25q2booM",
     artist: "John Lennon",
     title: "Imagine"
   },
