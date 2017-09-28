@@ -3,13 +3,52 @@ var songs = [
     youtube: "7jyY3e5FbZA",
     artist: "Robbie Williams",
     title: "Angels",
+  },
+  {
+    youtube: "at2agJwFYv8",
+    artist: "Celine Dion",
+    title: "My Heart Will Go On",
+  },
+  {
+    youtube: "xGl8khPZovI",
+    artist: "Elton John",
+    title: "Candle In The Wind",
+  },
+  {
+    youtube: "JXxBxQei6kc",
+    artist: "The Beatles",
+    title: "Yesterday",
+  },
+  {
+    youtube: "sKvHodnZkkQ",
+    artist: "Adele",
+    title: "When We Were Young"
+  },
+  {
+    youtube: "Andt08xgQMw",
+    artist: "Rod Stewart",
+    title: "Sailing"
+  },
+  {
+    youtube: "wqukhEXIhfU",
+    artist: "Seal",
+    title: "Kiss from a Rose"
+  },
+  {
+    youtube: "PooLT8Jmeno",
+    artist: "Frank Sinatra",
+    title: "My Way"
+  },
+  {
+    youtube: "kzEe0fo1wyc",
+    artist: "John Lennon",
+    title: "Imagine"
+  },
+  {
+    youtube: "CnzTLOdaaGA",
+    artist: "Eric Clapton",
+    title: "Tears In Heaven"
   }
-]
-
-var loadingMessages = [
-  'u ok hun',
-  'Exercise is great for sadness',
-  'so sad, so sad, it\'s a sad sad situation',
 ]
 
 var ref = {
