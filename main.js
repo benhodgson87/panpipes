@@ -1,3 +1,8 @@
+/**
+ * Most songs can't be embedded due to licensing restrictions.
+ * PANPIPE COVERS HOWEVER...
+ */
+
 var songs = [
   {
     youtube: "7jyY3e5FbZA",
