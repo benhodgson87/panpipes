@@ -53,6 +53,11 @@ var songs = [
     youtube: "CnzTLOdaaGA",
     artist: "Eric Clapton",
     title: "Tears In Heaven"
+  },
+  {
+    youtube: "BNzZfTPocUQ",
+    artist: "Whitney Houston",
+    title: "I Will Always Love You"
   }
 ]
 
