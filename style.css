@@ -1,0 +1,146 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.flex__positioner {
+    display: flex;
+    align-items: center;
+    box-pack: center;
+    flex: 1;
+}
+
+.flex__content {
+    margin: auto;
+    padding: 20px;
+    max-width: 640px;
+    text-align: center;
+}
+
+.logo-mark {
+  width: 66px;
+  height: 44px;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  color: #ffc42e;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.separator:after,
+.separator:before {
+  content: '';
+  width: 50px;
+  height: 1px;
+  background: #ffc42e;
+  margin: 0 20px;
+}
+
+.song {
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+}
+
+.song span {
+  display: block;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 480px) {
+  .song span {
+    display: inline;
+  }
+}
+
+.song__loading,
+.song.is-loaded .song__detail {
+  display: inline !important;
+}
+
+.song__detail,
+.song.is-loaded .song__loading {
+  display: none !important;
+}
+
+.song__title,
+.song__artist {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.song__split {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+@media only screen and (min-width: 480px) {
+  .song__split {
+    margin: 10px;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+.shuffle-control {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.shuffle-control:hover {
+  transform: scale(1.1);
+  background-color: #ffc42e;
+  color: #333;
+}
+
+.shuffle-control:active {
+  padding-top: 6px;
+  padding-bottom: 4px;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.33);
+  transition: all 0.2s ease-in-out;
+}
+
+.player-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
