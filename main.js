@@ -75,8 +75,8 @@ var updateTitle = function(artist, title) {
 }
 
 var updatePlayer = function (id) {
-  var url = 'http://www.youtube.com/embed/' + id + '?&autoplay=1&rel=0&fs=0&showinfo=0&disablekb=1&modestbranding=1&controls=1&autohide=0&color=white'
-  var embedCode = '<iframe width="100%" height="55" src="' + url + ' " frameborder="0" allowfullscreen></iframe>'
+  var url = 'http://www.youtube.com/embed/' + id + '?&autoplay=1&rel=0&fs=0&showinfo=0&disablekb=1&modestbranding=1&autohide=0&color=white'
+  var embedCode = '<iframe width="100%" height="200" src="' + url + ' " frameborder="0" allowfullscreen></iframe>'
 
   ref.player.innerHTML = embedCode
 }

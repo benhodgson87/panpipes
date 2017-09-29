@@ -143,6 +143,14 @@ body {
 }
 
 .player-container {
-  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
   visibility: hidden;
+}
+
+@media (hover: none) {
+  position: relative;
+  margin-top: 20px;
+  visibility: visible;
 }
