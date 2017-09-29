@@ -152,7 +152,7 @@ body {
 @media (hover: none) {
   .player-container {
     position: relative;
-    margin-top: 20px;
+    margin-top: 40px;
     visibility: visible;
   }
 }
