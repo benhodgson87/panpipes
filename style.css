@@ -150,7 +150,9 @@ body {
 }
 
 @media (hover: none) {
-  position: relative;
-  margin-top: 20px;
-  visibility: visible;
+  .player-container {
+    position: relative;
+    margin-top: 20px;
+    visibility: visible;
+  }
 }
