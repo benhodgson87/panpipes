@@ -39,6 +39,10 @@ body {
   margin-bottom: 10px;
 }
 
+.logo-mark__body {
+  fill: #ffc42e;
+}
+
 .logo-text {
   font-size: 28px;
   font-weight: 400;
