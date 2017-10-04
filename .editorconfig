@@ -13,8 +13,5 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 insert_final_newline = false
 
-[*.scss]
-indent_size = 4
-
 [Makefile]
 indent_style = tab
