@@ -154,6 +154,11 @@ body {
   text-decoration: none;
 }
 
+.credit a:hover {
+  background: #fff;
+  color: #00d0ff;
+}
+
 .player-container {
   position: absolute;
   top: 0;
